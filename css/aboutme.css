@@ -341,8 +341,29 @@ margin-top: 50px;
     padding: 30px;
     text-align: center;
     background-color: #4070f4;
+    
+    display: flex;
    
     }
+
+    .box {
+        width: 50%;
+        height: 100px;
+      }
+      
+      .box1 {
+        background-color: lightblue;
+      }
+      
+      .box2 {
+        background-color: lightgreen;
+      }
+      
+      /* Remove any spacing between the divs */
+      .box {
+        margin: 0;
+      }
+
 
 
 
