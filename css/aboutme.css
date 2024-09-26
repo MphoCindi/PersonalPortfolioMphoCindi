@@ -202,12 +202,13 @@
   }
 
   .my-skills .icon {
-    border: 2px solid white;
-    border-radius: 50%;
-    padding: 20px;
-    margin-bottom: 15px;
-    /* display: inline-block; */
-}
+    border: none;         
+    padding: 0;           
+    margin-bottom: 10px;  
+    font-size: 2rem;
+    color: var(--accent-color);
+    text-align: center;
+  }
 
 ol li .icon { font-size: 2rem; color: var(--accent-color); text-align: center }
 /* end my-skills part */
@@ -363,6 +364,7 @@ margin-top: 50px;
 
 .work-experience li {
   width: 40rem;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   color: #333;            
   border-radius: 3rem;
