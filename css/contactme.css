@@ -1,4 +1,22 @@
 
+main {
+  margin-top: 80px; /* Adjust based on header height */
+  margin-bottom: 60px; /* Adjust based on footer height */
+  height: calc(100vh - 140px); /* Adjust to fit header and footer */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* General styling for smoother scrolling */
+body {
+  overflow: hidden; /* Disable scrolling on the body */
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 /* navigation part */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 *{
@@ -317,3 +335,6 @@ font-size: 24px;
 .textarea:focus ~ .placeholder {
     color: white;
 }
+
+
+  
