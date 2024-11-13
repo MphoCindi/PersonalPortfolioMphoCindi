@@ -165,3 +165,62 @@ font-size: 24px;
 }
 /* footer end*/
 
+
+/* start education part */
+main {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensures full viewport height for centering */
+}
+@media (max-width: 768px) {
+    .timeline {
+        flex-direction: column; 
+    }
+}
+.education{
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    margin-top: -100px;
+    width: 800px; 
+    height: auto;
+    max-width: 90%; /* Make it responsive */
+    box-sizing: border-box;
+}
+
+.education h2 {
+    font-size: 40px;
+    color: #4070f4;
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.timeline {
+    display: flex; 
+    justify-content: space-around; 
+    gap: 20px; 
+}
+
+.content {
+    flex: 1; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.content h3 {
+    margin: 10px 0;
+}
+
+.content p {
+    color: #333;
+}
+
+.content:hover{
+    background-color: #e1ebf9; 
+    transition: 0.3s ease; /
+}
+/* end education part */
