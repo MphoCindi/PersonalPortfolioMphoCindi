@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/contactme.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Mpho Cindi</title>
     
+    <link rel="stylesheet" href="css/contactMe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Mpho Cindi_About Me</title>
+
 </head>
-
 <body>
-
     <header>
         <nav>
             <div class="nav-content">
               <div class="logo">
-                <a href="index.html">Mpho Cindi.</a>
+                <a href="potfolioProfile.html">Mpho Cindi.</a>
               </div>
               <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="aboutMe.html">About Me</a></li>
+                <li><a href="aboutMe.html">About</a></li>
                 <li><a href="mywork.html">My Work</a></li>
                 <li><a href="contactMe.html">Get in touch</a></li>
               </ul>
@@ -29,45 +29,49 @@
     </header>
 
     <main>
-      <form action="https://formsubmit.co/cindimpho3@gmail.com"  method="POST">
-        <div class="parent">
-            <div class="form">
-                <div class="title">Get in touch</div>
-              
-                <div class="input-container ic1">
-                  <input id="firstname" class="input" type="text" placeholder=" " name="name" required/>
-                  <div class="cut"></div>
-                  <label for="firstname" class="placeholder">First name</label>
-                </div>
-
-                <div class="input-container ic2">
-                  <input id="lastname" class="input" type="text" placeholder=" " name="lname" required/>
-                  <div class="cut"></div>
-                  <label for="lastname" class="placeholder">Last name</label>
-                </div>
-
-                <div class="input-container ic2">
-                  <input id="email" class="input" type="text" placeholder=" " name="email" required/>
-                  <div class="cut cut-short"></div>
-                  <label for="email" class="placeholder">Email</label>
-                </div>
-
-                <div class="input-container ic2">
-                  <textarea id="message" class="textarea" placeholder=" " name="name" required></textarea>
-                  <div class="cut cut-short"></div>
-                  <label for="message" class="placeholder">Message</label>
-              </div>
-              <br><br><br>
+      <div data-aos="fade-down" data-aos-duration="2000" class="about-section">
+        <form action="https://formsubmit.co/cindimpho3@gmail.com"  method="POST">
+          <div class="parent">
+              <div class="form">
+                  <div class="title">Get in touch</div>
                 
-                <button type="text" class="submit">submit</button>
-              </div>
-            
+                  <div class="input-container ic1">
+                    <input id="firstname" class="input" type="text" placeholder=" " name="name" required/>
+                    <div class="cut"></div>
+                    <label for="firstname" class="placeholder">First name</label>
+                  </div>
+  
+                  <div class="input-container ic2">
+                    <input id="lastname" class="input" type="text" placeholder=" " name="lname" required/>
+                    <div class="cut"></div>
+                    <label for="lastname" class="placeholder">Last name</label>
+                  </div>
+  
+                  <div class="input-container ic2">
+                    <input id="email" class="input" type="text" placeholder=" " name="email" required/>
+                    <div class="cut cut-short"></div>
+                    <label for="email" class="placeholder">Email</label>
+                  </div>
+  
+                  <div class="input-container ic2">
+                    <textarea id="message" class="textarea" placeholder=" " name="name" required></textarea>
+                    <div class="cut cut-short"></div>
+                    <label for="message" class="placeholder">Message</label>
+                </div>
+                <br><br><br>
+                  
+                  <button type="text" class="submit">submit</button>
+                </div>
+              
+  
+          </div>
+        </form>
+      </div>
 
-        </div>
-      </form>
-    </main>
+  </main>
 
     <footer>
+        
         <div class="social-icons">
             <p style="color: aliceblue;">Let's connect</p> <br>
             <a href="#" class="fa fa-linkedin"></a>
@@ -76,10 +80,13 @@
             <a href="#" class="fa fa-instagram"></a>
         </div>
     </footer>
+
+    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-     <script src="scroll.js"></script>
+    <script src="scroll.js"></script>
 </body>
 </html>
+
